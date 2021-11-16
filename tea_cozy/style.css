@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: black;
+    box-sizing: border-box; 
+    color: white;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    
+}
+
+header img {
+    height: 50px; 
+
+}
+
+nav {
+    color: white;
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: underline;
+}
+
+#hero img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 700px;
+    width: 1200px;
+}
+
+#hero-overlay {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 100%;
+    top: 350px;
+    background-color: black;
+}
+
+.centre-text {
+    text-align: center;
+}
+
+.gallery-image img{
+    height: 200px;
+    width: 300px;
+}
+
+#gallery {
+    margin: 50px auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.loaction-gallery {
+    display: flex;
+    flex-direction:  row;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    
+}
+
+.location-overlay {
+    width: 300px;
+    margin: 15px 40px;
+    background-color: black;
+}
+
+#loaction-background {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    width: 1200px;
+}
+
+#locations {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+footer {
+    text-align: left;
+}
+
